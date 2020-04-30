@@ -1,0 +1,66 @@
+body {
+    background-color:gray;
+    margin: 0px;
+}
+.special{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+.sticky{
+    color: cornsilk;
+    font-size: 2em;
+    transition: all 0.3s linear;
+}
+.sticky:hover{
+    box-shadow: red 0px 5px 5px,inset rgb(182, 45, 45) 0px -10px 10px;
+}
+.main-nav{
+    font-size: 0.7em;
+   margin: 0px;*/
+}
+.main-nav>li{
+    display: inline-block;
+    padding: 20px;
+}
+li>a{
+    text-decoration: none;
+    color: #f5f5f6;
+    text-shadow: 2px 2px 2px darkslategray ;
+}
+li>a:hover{
+    color: red;
+}
+.hero{
+    height: 500px;
+    padding: 75px 0px;
+    text-align: center;
+    color: #fff;
+    background: #f953c6;  /* fallback for old browsers */
+background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   background: url(https://source.unsplash.com/1600x820/?event)
+     no-repeat center;  
+         
+}
+.row{
+    display: inline-block;
+    background-color: white;
+}
+.article{
+    display: inline-block;
+    width: 33%;
+    box-sizing: border-box;
+    padding: 0 5px;
+
+}
+.artical-image{
+    max-width: 100%;
+}
+.artical-tag{
+    background-color: rgb(85, 236, 221);
+    border-radius: 2px;
+    color: rgb(236, 233, 233);
+    padding: 5px;
+}
