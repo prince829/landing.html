@@ -1,0 +1,70 @@
+.head{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+   margin: 123px 100px 10px 500px;
+}
+.body{
+        width: 0; 
+        height: 0;
+        border-left: 100px solid transparent; 
+        border-right: 100px solid transparent;
+        border-top: 100px solid red;   
+       margin: 10px 100px 10px 427px;   
+}
+.left-arms{
+    height: 200px;
+    width: 20px;
+background-color: red;
+margin: -109px 0px 10px 402px;
+}
+.right-arms{
+    height: 200px;
+    width: 20px;
+    background: red;
+    margin: -211px 0px 10px 632px;
+}
+.left-leg{
+    height: 200px;
+    width: 20px;
+    background: red;
+    margin: -125px 0px 0px 455px;
+}
+.right-leg{
+    height: 200px;
+    width: 20px;
+    background: red;
+    margin: -195px 0px 0px 573px;
+}
+.left-arm1{
+    height: 100px;
+    width: 20px;
+    background: red;
+    margin: -77px 0px 0px 403px;
+}
+.right-arm1{
+    height: 100px;
+    width: 20px;
+    background: red;
+    margin: -97px 0px 0px 632px;
+}
+.left-leg1{
+    height: 100px;
+    width: 20px;
+    background: red;
+    margin: -19px 0px 0px 456px;
+}
+.right-leg1{
+    height: 100px;
+    width: 20px;
+    background: red;
+    margin: -97px 0px 0px 573px;
+}
+.part:hover{
+    background:rgb(111, 111, 218);
+    transform: rotate(45deg);
+
+}
+/*.container{
+    transition: all 5s linear;
+}*/
